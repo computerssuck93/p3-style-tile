@@ -1,3 +1,24 @@
+/* PRIMARY HEADER */
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	color: lime;
+}
+
+p{
+	font-family: 'Rouge Script', cursive;
+	line-height: 1.5em;
+	color: green;
+}
+
+/* LINKS */
+a:link,
+a:visited{
+	border-bottom: double black 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -21,6 +42,26 @@ section {
 	width: 50px;
 }
 
+/* COLOR PALLETE */
+.color-1{
+	background: teal;
+}
+
+.color-2{
+	background: #2002FC;
+}
+
+/* TEXTURES */
+
+.pattern-1{
+	background-color: ##33FF00;
+	background-image: url("http://www.transparenttextures.com/patterns/carbon-fibre-big.png")
+}
+
+.pattern-2{
+	color: red;
+	background: url("../img/swirl_pattern.png");
+}
 
 /* Show Grid */
 .showgrid {
