@@ -1,0 +1,17 @@
+/* This is just a basic microsoft font, pretty much identical to about 60 other
+fonts however there are just enough subtle differences to make me like this one. Couldn't
+find any google fonts, well identical to it, so i just decided to embed the actual font.
+It says editable in the font properties, so if microsoft has a problem..... well...
+ZERO FUCKS GIVEN */
+
+
+@font-face {
+  font-family: 'IskoolaPota-Bold';
+  src: url('fonts/IskoolaPota-Bold.eot');
+  src: url('fonts/IskoolaPota-Bold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/IskoolaPota-Bold.woff') format('woff'),
+  url('fonts/IskoolaPota-Bold.ttf')  format('truetype'),
+  url('fonts/IskoolaPota-Bold.svg#IskoolaPota-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
